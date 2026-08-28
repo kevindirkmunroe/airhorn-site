@@ -1,4 +1,4 @@
-const APP_URL = 'https://bep-ui.onrender.com'
+const APP_URL = import.meta.env.VITE_APP_URL;
 
 export default function Pricing() {
   return (
